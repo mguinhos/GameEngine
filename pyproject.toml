@@ -1,0 +1,22 @@
+[project]
+name = "engine"
+version = "0.0.1"
+authors = [
+  { name="Marcel Guinhos", email="mguinhos@gmail.com" },
+]
+description = "A simple game engine written in Python"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+packages = ["engine"]
+
+[build-system]
+requires = ["setuptools >= 40.9.0"]
+build-backend = "setuptools.build_meta"
